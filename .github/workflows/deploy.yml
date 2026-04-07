@@ -26,11 +26,13 @@ jobs:
       - name: Build Angular app
         run: npm run build -- --configuration production
 
-      - name: Deploy via FTP to Strato
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/stadtmeise/browser/
-          server-dir: /
+          port: 22
+          local_path: dist/stadtmeise/browser/*
+          remote_path: /
+          sftp_only: true
