@@ -1,0 +1,65 @@
+[
+  {
+    "period": "Feb. 2020 – Heute",
+    "headline": "Entwickler",
+    "subline": "DB Systel GmbH",
+    "location": "Berlin",
+    "description": "Front- und Backend Entwicklung im Delivery Team - Data Automation Services (DAS)"
+  },
+  {
+    "period": "Feb. 2018 – Jan. 2020",
+    "headline": "Entwickler",
+    "subline": "DB Systel GmbH",
+    "location": "Berlin",
+    "description": "Software- und Systems Engineering im SmartData-Team mit Fokus auf Natural Language Processing (NLP) und supervised machine learning in Java & Python"
+  },
+  {
+    "period": "Dez. 2016 – Jan. 2018",
+    "headline": "Co-Founder",
+    "subline": "Meise & Peters GbR (Supplets)",
+    "location": "Berlin",
+    "description": "Gründungsprojekt Supplets: Entwicklung einer Sensor-, Aktorplattform für IOT. Hardwaredesign, App-Entwicklung, Geschäftsplanung."
+  },
+  {
+    "period": "Okt. 2016 – März 2017",
+    "headline": "Master Thesis",
+    "subline": "Meise & Peters GbR (Supplets)",
+    "location": "Berlin",
+    "description": "Usability Engineering am Beispiel einer modularen Hardwareplattform"
+  },
+  {
+    "period": "Apr. 2015 – Nov. 2016",
+    "headline": "Webadministrator und Assistent Softwareentwicklung",
+    "subline": "Kernwert GmbH",
+    "location": "Berlin",
+    "description": "Frontend-Entwicklung – Typescript/Javascript, HTML, CSS"
+  },
+  {
+    "period": "Feb. 2015 – März 2015",
+    "headline": "Working Student",
+    "subline": "Berner & Mattner Systemtechnik GmbH",
+    "location": "Berlin",
+    "description": "Schwerpunkte: Android- & Java-Entwicklung"
+  },
+  {
+    "period": "Dez. 2014 – Feb. 2015",
+    "headline": "Bachelor Thesis",
+    "subline": "Berner & Mattner Systemtechnik GmbH",
+    "location": "Berlin",
+    "description": "Entwurf und Implementierung einer Android-App für die Diagnose und Steuerung eines Modellfahrzeugs auf der Basis eines vorhandenen Diagnosetools."
+  },
+  {
+    "period": "Sept. 2014 – Nov. 2014",
+    "headline": "Student Intern",
+    "subline": "Berner & Mattner Systemtechnik GmbH",
+    "location": "Berlin",
+    "description": "Schwerpunkte: Android- & Java-Entwicklung"
+  },
+  {
+    "period": "2012 – 2014",
+    "headline": "Working Student",
+    "subline": "Gehricke, Wieseke GbR",
+    "location": "Berlin",
+    "description": "Frontend-Entwicklung – Javascript, HTML, CSS"
+  }
+]

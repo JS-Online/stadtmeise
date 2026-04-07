@@ -1,0 +1,28 @@
+[
+  {
+    "period": "Juni 2022 – Juni 2025",
+    "headline": "AWS Certified Solutions Architect – Associate",
+    "subline": "Amazon Web Services (AWS)",
+    "location": "",
+    "description": "",
+    "accentColor": "secondary"
+  },
+  {
+    "period": "2015 – 2017",
+    "headline": "Master of Engineering (M.Eng.), Systems Engineering",
+    "subline": "Hochschule für Technik und Wirtschaft Berlin",
+    "location": "Berlin",
+    "description": "",
+    "badge1": "Note: 1.3",
+    "accentColor": "secondary"
+  },
+  {
+    "period": "2011 – 2015",
+    "headline": "Bachelor of Engineering (B.Eng.), Computer Engineering",
+    "subline": "Hochschule für Technik und Wirtschaft Berlin",
+    "location": "Berlin",
+    "description": "",
+    "badge1": "Note: 1.4",
+    "accentColor": "secondary"
+  }
+]

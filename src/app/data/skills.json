@@ -1,0 +1,12 @@
+[
+  {
+    "icon": "bi-tools",
+    "title": "Professional Skills",
+    "skills": ["Data Analysis", "Frontend Development", "Backend Development", "User Interface Design"]
+  },
+  {
+    "icon": "bi-code-slash",
+    "title": "Languages",
+    "skills": ["TypeScript", "JavaScript", "Java", "Python", "HTML", "CSS"]
+  }
+]
