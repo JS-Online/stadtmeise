@@ -30,14 +30,17 @@ jobs:
         run: npm test -- --watch=false
 
       - name: Build Angular app
-        run: npm run build -- --configuration production
+        run: |
+          npm run build -- --configuration production
+          cp public/.htaccess dist/stadtmeise/browser/.htaccess
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/stadtmeise/browser/
-          server-dir: /
-          protocol: ftps
+          port: 22
+          local_path: ./dist/stadtmeise/browser/
+          remote_path: /
+          sftp_only: true
