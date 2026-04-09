@@ -32,9 +32,12 @@ jobs:
       - name: Build Angular app
         run: npm run build -- --configuration production
 
-      - name: Deploy via rsync
-        run: |
-          sshpass -p "${{ secrets.FTP_PASSWORD }}" rsync -avz --delete \
-            -e "ssh -o StrictHostKeyChecking=no" \
-            dist/stadtmeise/browser/. \
-            ${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:/
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: dist/stadtmeise/browser/
+          server-dir: /
+          protocol: ftps
