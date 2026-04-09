@@ -1,4 +1,4 @@
-name: Build and Deploy to Strato
+name: Build and Deploy
 
 on:
   push:
@@ -32,13 +32,9 @@ jobs:
       - name: Build Angular app
         run: npm run build -- --configuration production
 
-      - name: Deploy via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          port: 22
-          local_path: dist/stadtmeise/browser/
-          remote_path: /
-          sftp_only: true
+      - name: Deploy via rsync
+        run: |
+          sshpass -p "${{ secrets.FTP_PASSWORD }}" rsync -avz --delete \
+            -e "ssh -o StrictHostKeyChecking=no" \
+            dist/stadtmeise/browser/. \
+            ${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:/
