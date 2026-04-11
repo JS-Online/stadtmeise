@@ -32,7 +32,6 @@ jobs:
       - name: Build Angular app
         run: |
           npm run build -- --configuration production
-          cp public/.htaccess dist/stadtmeise/browser/.htaccess
 
       - name: Deploy via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
