@@ -40,6 +40,6 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 22
-          local_path: ./dist/stadtmeise/browser/
+          local_path: ./dist/stadtmeise/browser/*
           remote_path: /
           sftp_only: true
