@@ -32,15 +32,15 @@ html {
 .profile {
   position: relative;
   height: 75vw;
-  width: 75vw;
+  width: 95vw;
   border-radius: 2vw;
   margin-top: 5vw;
   max-height: 40rem;
-  max-width: 40rem;
+  max-width: 55rem;
 }
 .profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
+  height: 90vw;
+  max-height: 55rem;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -86,7 +86,7 @@ html {
 @media (min-width: 576px) {
   .profile {
     height: 60vw;
-    width: 60vw;
+    width: 75vw;
   }
   .profile .profile-img {
     height: 65vw;
@@ -111,7 +111,7 @@ html {
 @media (min-width: 768px) {
   .profile {
     height: 50vw;
-    width: 60vw;
+    width: 70vw;
   }
   .profile .profile-img {
     height: 55vw;
@@ -136,7 +136,7 @@ html {
 @media (min-width: 992px) {
   .profile {
     height: 40vw;
-    width: 50vw;
+    width: 55vw;
   }
   .profile .profile-img {
     height: 45vw;
@@ -161,7 +161,7 @@ html {
 @media (min-width: 1200px) {
   .profile {
     height: 35vw;
-    width: 45vw;
+    width: 50vw;
   }
   .profile .profile-img {
     height: 40vw;
@@ -181,5 +181,30 @@ html {
   .profile .dots-4 {
     width: 1.5vw;
     left: -2vw;
+  }
+}
+@media (min-width: 1400px) {
+  .profile {
+    height: 30rem;
+    width: 45rem;
+  }
+  .profile .profile-img {
+    height: 35rem;
+  }
+  .profile .dots-1 {
+    width: 1.25rem;
+    right: 0.625rem;
+  }
+  .profile .dots-2 {
+    width: 1.25rem;
+    right: -1.75rem;
+  }
+  .profile .dots-3 {
+    width: 1.25rem;
+    left: 0.625rem;
+  }
+  .profile .dots-4 {
+    width: 1.25rem;
+    left: -1.75rem;
   }
 }
