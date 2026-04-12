@@ -12,4 +12,6 @@ export class ProjectCard {
   description = input.required<string>();
   image = input.required<string>();
   imageAlt = input<string>('');
+  link = input<string>('');
+  tags = input<string[]>([]);
 }

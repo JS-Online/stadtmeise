@@ -1,0 +1,5 @@
+.badge-tech {
+  background: var(--bs-primary);
+  color: #fff;
+  font-weight: 700;
+}

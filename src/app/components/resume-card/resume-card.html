@@ -24,7 +24,14 @@
         </div>
       </div>
       <div class="col-lg-7">
-        <div>{{ description() }}</div>
+        <div style="white-space: pre-line">{{ description() }}</div>
+        @if (tags() && tags()!.length > 0) {
+          <div class="mt-3 d-flex flex-wrap gap-1">
+            @for (tag of tags(); track tag) {
+              <span class="badge rounded-pill badge-tech">{{ tag }}</span>
+            }
+          </div>
+        }
       </div>
     </div>
   </div>

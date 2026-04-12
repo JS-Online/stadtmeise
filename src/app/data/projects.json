@@ -1,8 +1,17 @@
 [
   {
+    "title": "Bahnhof Biesenthal",
+    "description": "Website for \"Kultur im Bahnhof e.V.\", a non-profit association that purchased the historic Biesenthal train station in 2005 and transformed it into a vibrant cultural centre.\n\nThe site serves as the digital hub for the association's events — concerts, readings, theatre, film screenings, exhibitions, courses and more — as well as providing information about the venue, membership and rentals.\n\nDeveloped in 2021 and actively maintained ever since.",
+    "image": "bhf.jpg",
+    "imageAlt": "Bahnhof Biesenthal",
+    "link": "https://biesenthal-bahnhof.de",
+    "tags": ["WordPress", "PHP", "JavaScript", "HTML", "CSS"]
+  },
+  {
     "title": "Supplets",
     "description": "Supplets are hardware components with different sensors and actuators that can be combined in a similar way to Lego bricks to enable creative people to implement their own ideas.\n\n Do you know when you're out and you're suddenly unsure whether you've turned off the stove or not? Are you often away from home and want to be sure that your home is not damaged by water?\n\n Would you like to know if someone throws something in your mailbox or if someone opens your arbor on the property?\n\n With the Supplets you can easily implement such ideas and wishes. It's no problem if you can't program or if you are afraid of electronics. The Supplets are already in a housing and you can't put them together wrong. Implementing your application is just as easy as using your smartphone.",
     "image": "supplets-stack.png",
-    "imageAlt": "Supplets"
+    "imageAlt": "Supplets",
+    "tags": ["IoT", "Hardwaredesign", "KiCad", "Android", "Java"]
   }
 ]

@@ -4,6 +4,16 @@
       <div class="col-12 col-md p-5">
         <h2 class="fw-bolder">{{ title() }}</h2>
         <p style="white-space: pre-line">{{ description() }}</p>
+        @if (tags() && tags()!.length > 0) {
+          <div class="mb-3 d-flex flex-wrap gap-1">
+            @for (tag of tags(); track tag) {
+              <span class="badge rounded-pill badge-tech">{{ tag }}</span>
+            }
+          </div>
+        }
+        @if (link()) {
+          <a class="btn btn-outline-primary btn-sm" [href]="link()" target="_blank" rel="noopener noreferrer">Visit website</a>
+        }
       </div>
       <div class="col-12 col-md-auto text-center p-3 p-md-0">
         <img class="img-fluid" style="max-width: 250px; width: 100%;" [src]="image()" [alt]="imageAlt()" />

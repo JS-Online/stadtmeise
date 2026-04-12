@@ -1,65 +1,74 @@
 [
   {
     "period": "Feb. 2020 – Heute",
-    "headline": "Entwickler",
+    "headline": "Softwareentwickler",
     "subline": "DB Systel GmbH",
     "location": "Berlin",
-    "description": "Front- und Backend Entwicklung im Delivery Team - Data Automation Services (DAS)"
+    "description": "Front- und Backend Entwicklung im Delivery Team: Data Automation Services (DAS) - Fahrgastrechte",
+    "tags": ["AWS", "Camunda", "Angular", "TypeScript", "Python", "Java", "Spring Boot", "Git", "GitLab", "Renovate"]
   },
   {
     "period": "Feb. 2018 – Jan. 2020",
-    "headline": "Entwickler",
+    "headline": "Softwareentwickler",
     "subline": "DB Systel GmbH",
     "location": "Berlin",
-    "description": "Software- und Systems Engineering im SmartData-Team mit Fokus auf Natural Language Processing (NLP) und supervised machine learning in Java & Python"
+    "description": "Software- und Systems Engineering im SmartData-Team mit Fokus auf Natural Language Processing (NLP) und supervised machine learning",
+    "tags": ["Python", "NLP", "Supervised Machine Learning", "Git"]
   },
   {
     "period": "Dez. 2016 – Jan. 2018",
     "headline": "Co-Founder",
     "subline": "Meise & Peters GbR (Supplets)",
     "location": "Berlin",
-    "description": "Gründungsprojekt Supplets: Entwicklung einer Sensor-, Aktorplattform für IOT. Hardwaredesign, App-Entwicklung, Geschäftsplanung."
+    "description": "Gründungsprojekt Supplets: Entwicklung einer Sensor-, Aktorplattform für IOT",
+    "tags": ["IoT", "Hardwaredesign", "KiCad", "Android", "Java", "Git"]
   },
   {
     "period": "Okt. 2016 – März 2017",
     "headline": "Master Thesis",
     "subline": "Meise & Peters GbR (Supplets)",
     "location": "Berlin",
-    "description": "Usability Engineering am Beispiel einer modularen Hardwareplattform"
+    "description": "Title of thesis: Usability Engineering am Beispiel einer modularen Hardwareplattform",
+    "tags": ["Usability Engineering", "UX", "IoT", "Android", "Java", "Git"]
   },
   {
     "period": "Apr. 2015 – Nov. 2016",
     "headline": "Webadministrator und Assistent Softwareentwicklung",
     "subline": "Kernwert GmbH",
     "location": "Berlin",
-    "description": "Frontend-Entwicklung – Typescript/Javascript, HTML, CSS"
+    "description": "Frontend-Entwicklung: Entwicklung eines responsive Moodboards.",
+    "tags": ["TypeScript", "JavaScript", "PHP", "RWD", "HTML", "CSS", "Git"]
   },
   {
     "period": "Feb. 2015 – März 2015",
     "headline": "Working Student",
     "subline": "Berner & Mattner Systemtechnik GmbH",
     "location": "Berlin",
-    "description": "Schwerpunkte: Android- & Java-Entwicklung"
+    "description": "Weiterentwicklung der Android-App die im Rahmen eines Bachelor-Thesis-Projekts entstanden ist.",
+    "tags": ["Android", "Java", "SVN"]
   },
   {
     "period": "Dez. 2014 – Feb. 2015",
     "headline": "Bachelor Thesis",
     "subline": "Berner & Mattner Systemtechnik GmbH",
     "location": "Berlin",
-    "description": "Entwurf und Implementierung einer Android-App für die Diagnose und Steuerung eines Modellfahrzeugs auf der Basis eines vorhandenen Diagnosetools."
+    "description": "Entwurf und Implementierung einer Android-App für die Diagnose und Steuerung eines Modellfahrzeugs auf der Basis eines vorhandenen Diagnosetools.",
+    "tags": ["Android", "Java", "SVN"]
   },
   {
     "period": "Sept. 2014 – Nov. 2014",
     "headline": "Student Intern",
     "subline": "Berner & Mattner Systemtechnik GmbH",
     "location": "Berlin",
-    "description": "Schwerpunkte: Android- & Java-Entwicklung"
+    "description": "Weiterentwicklung einer Java basierten Desktop-Anwendung.",
+    "tags": ["Android", "Java", "SVN"]
   },
   {
     "period": "2012 – 2014",
     "headline": "Working Student",
     "subline": "Gehricke, Wieseke GbR",
     "location": "Berlin",
-    "description": "Frontend-Entwicklung – Javascript, HTML, CSS"
+    "description": "Frontend-Entwicklung: Entwicklung eines responsive Drag-and-Drop Tools für die Qualitative Marktforschung unterschiedlicher Projekte.",
+    "tags": ["TypeScript", "JavaScript", "RWD", "HTML", "CSS"]
   }
 ]

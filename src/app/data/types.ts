@@ -7,6 +7,7 @@ export interface ResumeEntry {
   accentColor?: 'primary' | 'secondary';
   badge1?: string;
   badge2?: string;
+  tags?: string[];
 }
 
 export interface ProjectEntry {
@@ -14,4 +15,6 @@ export interface ProjectEntry {
   description: string;
   image: string;
   imageAlt?: string;
+  link?: string;
+  tags?: string[];
 }

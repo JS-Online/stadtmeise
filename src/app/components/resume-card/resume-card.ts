@@ -16,4 +16,5 @@ export class ResumeCard {
   description = input.required<string>();
   badge1 = input<string>('');
   badge2 = input<string>('');
+  tags = input<string[]>([]);
 }
