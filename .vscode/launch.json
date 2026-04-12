@@ -11,12 +11,11 @@
       "webRoot": "${workspaceFolder}"
     },
     {
-      "name": "ng test (Firefox)",
-      "type": "firefox",
+      "name": "ng test",
+      "type": "node-terminal",
       "request": "launch",
-      "preLaunchTask": "ng test",
-      "url": "http://localhost:9876/debug.html",
-      "webRoot": "${workspaceFolder}"
-    }
+      "command": "nix develop . --command sh -c 'cd stadtmeise && npm run test'",
+      "cwd": "${workspaceFolder}/.."
+    },
   ]
 }
