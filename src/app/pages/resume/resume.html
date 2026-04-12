@@ -3,18 +3,15 @@
   <div class="text-center mb-5">
     <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
   </div>
+  <!-- Experience & Education side by side on xxl -->
   <div class="row gx-5 justify-content-center">
-    <div class="col-lg-11 col-xl-9 col-xxl-8">
+    <div class="col-xxl-6 col-lg-11 col-xl-9">
 
       <!-- Experience Section-->
       <section>
         <div class="d-flex align-items-center justify-content-between mb-4">
           <h2 class="text-primary fw-bolder mb-0">Experience</h2>
-          <!-- Download resume button
-          <a class="btn btn-primary px-4 py-3" href="#!">
-            <div class="d-inline-block bi bi-download me-2"></div>
-            Download Resume
-          </a> -->
+
         </div>
         @for (entry of experience; track entry.period) {
           <app-resume-card
@@ -26,6 +23,9 @@
           />
         }
       </section>
+
+    </div>
+    <div class="col-xxl-6 col-lg-11 col-xl-9">
 
       <!-- Education Section-->
       <section>
@@ -43,12 +43,12 @@
           />
         }
       </section>
-      <div class="pb-5"></div>
 
-      <!-- Skills Section-->
-      <section>
+      <!-- Skills Section -->
+      <section class="mt-5">
         <app-skills-card [groups]="skillGroups" />
       </section>
+      <div class="pb-5"></div>
 
     </div>
   </div>
