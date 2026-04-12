@@ -31,15 +31,15 @@ html {
 
 .profile {
   position: relative;
-  height: 75vw;
-  width: 95vw;
+  height: 55vw;
+  width: 70vw;
   border-radius: 2vw;
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 55rem;
 }
 .profile .profile-img {
-  height: 90vw;
+  height: 65vw;
   max-height: 55rem;
   position: absolute;
   bottom: 0;
