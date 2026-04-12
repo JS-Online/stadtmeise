@@ -2,7 +2,11 @@
   {
     "icon": "bi-tools",
     "title": "Professional Skills",
-    "skills": ["Data Analysis", "Frontend Development", "Backend Development", "User Interface Design"]
+    "skills": [
+      "Frontend Development", "Angular", "TypeScript", "Bootstrap",
+      "Backend Development", "Camunda", "Spring Boot", "Java", "Python",
+      "AWS", "Cloud Architecture", "Git", "GitLab"
+    ]
   },
   {
     "icon": "bi-code-slash",

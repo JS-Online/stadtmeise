@@ -4,7 +4,7 @@
     "headline": "AWS Certified Solutions Architect – Associate",
     "subline": "Amazon Web Services (AWS)",
     "location": "",
-    "description": "",
+    "description": "Zertifizierung für den Entwurf skalierbarer, hochverfügbarer und kosteneffizienter Cloud-Architekturen auf der AWS-Plattform.",
     "accentColor": "secondary",
     "tags": ["AWS", "Cloud Architecture"]
   },
@@ -13,7 +13,7 @@
     "headline": "Master of Engineering (M.Eng.), Systems Engineering",
     "subline": "Hochschule für Technik und Wirtschaft Berlin",
     "location": "Berlin",
-    "description": "",
+    "description": "Interdisziplinärer Masterstudiengang mit Fokus auf komplexe technische Systeme, Systemarchitektur, Modellierung und Usability Engineering.",
     "badge1": "Note: 1.3",
     "accentColor": "secondary",
     "tags": ["Systems Engineering", "Hardwaredesign", "KiCad",  "C++", "Java", "HTML", "CSS", "JavaScript"]
@@ -23,7 +23,7 @@
     "headline": "Bachelor of Engineering (B.Eng.), Computer Engineering",
     "subline": "Hochschule für Technik und Wirtschaft Berlin",
     "location": "Berlin",
-    "description": "",
+    "description": "Kombination aus Informatik und Elektrotechnik mit Schwerpunkten in eingebetteten Systemen, Hardware-Design, Programmierung und digitaler Schaltungstechnik.",
     "badge1": "Note: 1.4",
     "accentColor": "secondary",
     "tags": ["Computer Engineering", "Hardwaredesign", "EAGLE", "FPGA", "C", "C++", "Assembler", "Android", "Java", "HTML", "CSS", "JavaScript"]
