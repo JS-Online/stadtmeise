@@ -20,7 +20,7 @@ describe('Home', () => {
     const fixture = TestBed.createComponent(Home);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Lets change the world together');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Let\'s improve processes together.');
   });
 
   it('should render Resume link button', () => {
