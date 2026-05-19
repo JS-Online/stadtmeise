@@ -1,10 +1,11 @@
 import { TestBed } from '@angular/core/testing';
 import { Contact } from './contact';
+import { FadeInOnScrollDirective } from '../../directives/fade-in-on-scroll.directive';
 
 describe('Contact', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Contact]
+      imports: [Contact, FadeInOnScrollDirective]
     }).compileComponents();
   });
 

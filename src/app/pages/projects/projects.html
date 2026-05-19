@@ -1,13 +1,16 @@
 <!-- Projects Section-->
 <section class="py-5">
   <div class="container px-5 mb-5">
-    <div class="text-center mb-5">
+    <div class="text-center mb-5" appFadeInOnScroll [delay]="0" [direction]="'up'">
       <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
     </div>
     <div class="row gx-5 justify-content-center">
       <div class="col-lg-11 col-xl-9 col-xxl-8">
-        @for (project of projects; track project.title) {
+        @for (project of projects; track project.title; let i = $index) {
           <app-project-card
+            appFadeInOnScroll
+            [delay]="100 + (i * 150)"
+            [direction]="'up'"
             [title]="project.title"
             [description]="project.description"
             [image]="project.image"
@@ -22,7 +25,7 @@
 </section>
 
 <!-- Call to action section-->
-<section class="py-5 bg-gradient-primary-to-secondary text-white">
+<section class="py-5 bg-gradient-primary-to-secondary text-white" appFadeInOnScroll [delay]="200" [direction]="'up'">
   <div class="container px-5 my-5">
     <div class="text-center">
       <h2 class="display-4 fw-bolder mb-4">Let's build something great together</h2>

@@ -1,18 +1,17 @@
 <!-- Page content-->
 <section class="py-5 bg-white">
   <div class="container px-5">
-    <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+    <div class="bg-light rounded-4 py-5 px-4 px-md-5" appFadeInOnScroll [delay]="0" [direction]="'up'">
       <div class="text-center">
-        <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3">
+        <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3" appFadeInOnScroll [delay]="100" [direction]="'up'">
           <i class="bi bi-envelope"></i>
         </div>
-        <h1 class="fw-bolder">Get in touch</h1>
-        <p class="lead fw-normal text-muted mb-4">Let's work together!</p>
-        <a class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="mailto:js@stadtmeise.de">
+        <h1 class="fw-bolder" appFadeInOnScroll [delay]="200" [direction]="'up'">Get in touch</h1>
+        <p class="lead fw-normal text-muted mb-4" appFadeInOnScroll [delay]="300" [direction]="'up'">Let's work together!</p>
+        <a class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="mailto:js@stadtmeise.de" appFadeInOnScroll [delay]="400" [direction]="'up'">
           <i class="bi bi-envelope me-2"></i>js&#64;stadtmeise.de
         </a>
       </div>
     </div>
   </div>
 </section>
-

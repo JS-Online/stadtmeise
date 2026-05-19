@@ -2,11 +2,12 @@ import { TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 import { routes } from '../../app.routes';
 import { Home } from './home';
+import { FadeInOnScrollDirective } from '../../directives/fade-in-on-scroll.directive';
 
 describe('Home', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Home],
+      imports: [Home, FadeInOnScrollDirective],
       providers: [provideRouter(routes)]
     }).compileComponents();
   });
@@ -20,7 +21,7 @@ describe('Home', () => {
     const fixture = TestBed.createComponent(Home);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Let\'s improve processes together.');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Let\'s build the future of work. Together.');
   });
 
   it('should render Resume link button', () => {
@@ -28,7 +29,7 @@ describe('Home', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     const links = Array.from(compiled.querySelectorAll('a'));
-    expect(links.some(a => a.textContent?.trim() === 'Resume')).toBe(true);
+    expect(links.some(a => a.textContent?.trim() === 'View My Resume')).toBe(true);
   });
 
   it('should render Projects link button', () => {
@@ -36,6 +37,6 @@ describe('Home', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     const links = Array.from(compiled.querySelectorAll('a'));
-    expect(links.some(a => a.textContent?.trim() === 'Projects')).toBe(true);
+    expect(links.some(a => a.textContent?.trim() === 'View Projects')).toBe(true);
   });
 });

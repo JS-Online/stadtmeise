@@ -5,3 +5,48 @@ body {
   font-family: "Plus Jakarta Sans", system-ui, sans-serif;
   background-color: #f8f9fa;
 }
+
+/* ============================================
+   Fade-in On Scroll Animation
+   ============================================ */
+[appFadeInOnScroll] {
+  opacity: 0;
+}
+
+/* Animation-Klassen */
+.animate-fade-in {
+  opacity: 1 !important;
+}
+
+.animate-from-up {
+  transform: translateY(20px);
+}
+
+.animate-from-down {
+  transform: translateY(-20px);
+}
+
+.animate-from-left {
+  transform: translateX(-20px);
+}
+
+.animate-from-right {
+  transform: translateX(20px);
+}
+
+/* Endzustand der Animation */
+[appFadeInOnScroll].animate-fade-in.animate-from-up {
+  transform: translateY(0) !important;
+}
+
+[appFadeInOnScroll].animate-fade-in.animate-from-down {
+  transform: translateY(0) !important;
+}
+
+[appFadeInOnScroll].animate-fade-in.animate-from-left {
+  transform: translateX(0) !important;
+}
+
+[appFadeInOnScroll].animate-fade-in.animate-from-right {
+  transform: translateX(0) !important;
+}

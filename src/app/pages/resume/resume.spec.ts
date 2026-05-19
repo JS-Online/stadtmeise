@@ -1,10 +1,11 @@
 import { TestBed } from '@angular/core/testing';
 import { Resume } from './resume';
+import { FadeInOnScrollDirective } from '../../directives/fade-in-on-scroll.directive';
 
 describe('Resume', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Resume]
+      imports: [Resume, FadeInOnScrollDirective]
     }).compileComponents();
   });
 
