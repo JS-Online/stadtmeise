@@ -1,31 +1,31 @@
 [
   {
-    "period": "Juni 2022 – Juni 2025",
+    "period": "Jun 2022 – Jun 2025",
     "headline": "AWS Certified Solutions Architect – Associate",
     "subline": "Amazon Web Services (AWS)",
     "location": "",
-    "description": "Zertifizierung für den Entwurf skalierbarer, hochverfügbarer und kosteneffizienter Cloud-Architekturen auf der AWS-Plattform.",
+    "description": "Certification for designing scalable, highly available, and cost-efficient cloud architectures on the AWS platform. Validates expertise in distributed systems, security, and cloud best practices.",
     "accentColor": "secondary",
-    "tags": ["AWS", "Cloud Architecture"]
+    "tags": ["AWS", "Cloud Architecture", "Distributed Systems"]
   },
   {
     "period": "2015 – 2017",
     "headline": "Master of Engineering (M.Eng.), Systems Engineering",
-    "subline": "Hochschule für Technik und Wirtschaft Berlin",
-    "location": "Berlin",
-    "description": "Interdisziplinärer Masterstudiengang mit Fokus auf komplexe technische Systeme, Systemarchitektur, Modellierung und Usability Engineering.",
-    "badge1": "Note: 1.3",
+    "subline": "HTW Berlin (University of Applied Sciences)",
+    "location": "Berlin, Germany",
+    "description": "Interdisciplinary master’s program focusing on complex technical systems, system architecture, modeling, and usability engineering. Specialized in embedded systems and human-machine interaction.",
+    "badge1": "Grade: 1.3 (German scale)",
     "accentColor": "secondary",
-    "tags": ["Systems Engineering", "Hardwaredesign", "KiCad",  "C++", "Java", "HTML", "CSS", "JavaScript"]
+    "tags": ["Systems Engineering", "Hardware Design", "KiCad", "C++", "Java", "HTML", "CSS", "JavaScript"]
   },
   {
     "period": "2011 – 2015",
     "headline": "Bachelor of Engineering (B.Eng.), Computer Engineering",
-    "subline": "Hochschule für Technik und Wirtschaft Berlin",
-    "location": "Berlin",
-    "description": "Kombination aus Informatik und Elektrotechnik mit Schwerpunkten in eingebetteten Systemen, Hardware-Design, Programmierung und digitaler Schaltungstechnik.",
-    "badge1": "Note: 1.4",
+    "subline": "HTW Berlin (University of Applied Sciences)",
+    "location": "Berlin, Germany",
+    "description": "Combined computer science and electrical engineering curriculum, with a focus on embedded systems, hardware design, programming, and digital circuit technology.",
+    "badge1": "Grade: 1.4 (German scale)",
     "accentColor": "secondary",
-    "tags": ["Computer Engineering", "Hardwaredesign", "EAGLE", "FPGA", "C", "C++", "Assembler", "Android", "Java", "HTML", "CSS", "JavaScript"]
+    "tags": ["Computer Engineering", "Hardware Design", "EAGLE", "FPGA", "C", "C++", "Assembly", "Android", "Java", "HTML", "CSS", "JavaScript"]
   }
 ]

@@ -1,74 +1,74 @@
 [
   {
-    "period": "Feb. 2020 – Heute",
-    "headline": "Softwareentwickler",
+    "period": "Feb 2020 – Present",
+    "headline": "Software Developer",
     "subline": "DB Systel GmbH",
-    "location": "Berlin",
-    "description": "Front- und Backend Entwicklung im Delivery Team: Data Automation Services (DAS) - Fahrgastrechte",
+    "location": "Berlin, Germany",
+    "description": "Frontend and backend development in the Delivery Team: Data Automation Services (DAS) – Passenger Rights. Developed cloud-based solutions for automated passenger compensation processes.",
     "tags": ["AWS", "Camunda", "Angular", "TypeScript", "Python", "Java", "Spring Boot", "Git", "GitLab", "Renovate"]
   },
   {
-    "period": "Feb. 2018 – Jan. 2020",
-    "headline": "Softwareentwickler",
+    "period": "Feb 2018 – Jan 2020",
+    "headline": "Software Developer",
     "subline": "DB Systel GmbH",
-    "location": "Berlin",
-    "description": "Software- und Systems Engineering im SmartData-Team mit Fokus auf Natural Language Processing (NLP) und supervised machine learning",
-    "tags": ["Python", "NLP", "Supervised Machine Learning", "Git"]
+    "location": "Berlin, Germany",
+    "description": "Software and systems engineering in the SmartData Team, focusing on Natural Language Processing (NLP) and supervised machine learning for text classification and data extraction.",
+    "tags": ["Python", "NLP", "Machine Learning", "Supervised Learning", "Git"]
   },
   {
-    "period": "Dez. 2016 – Jan. 2018",
+    "period": "Dec 2016 – Jan 2018",
     "headline": "Co-Founder",
     "subline": "Meise & Peters GbR (Supplets)",
-    "location": "Berlin",
-    "description": "Gründungsprojekt Supplets: Entwicklung einer Sensor-, Aktorplattform für IOT",
-    "tags": ["IoT", "Hardwaredesign", "KiCad", "Android", "Java", "Git"]
+    "location": "Berlin, Germany",
+    "description": "Startup project Supplets: Developed a sensor and actuator IoT platform with modular hardware design for smart home and industrial automation.",
+    "tags": ["IoT", "Hardware Design", "KiCad", "Android", "Java", "Git"]
   },
   {
-    "period": "Okt. 2016 – März 2017",
+    "period": "Oct 2016 – Mar 2017",
     "headline": "Master Thesis",
     "subline": "Meise & Peters GbR (Supplets)",
-    "location": "Berlin",
-    "description": "Title of thesis: Usability Engineering am Beispiel einer modularen Hardwareplattform",
-    "tags": ["Usability Engineering", "UX", "IoT", "Android", "Java", "Git"]
+    "location": "Berlin, Germany",
+    "description": "Thesis title: Usability Engineering for a Modular Hardware Platform. Researched and implemented UX best practices for IoT device interfaces.",
+    "tags": ["Usability Engineering", "UX Design", "IoT", "Android", "Java", "Git"]
   },
   {
-    "period": "Apr. 2015 – Nov. 2016",
-    "headline": "Webadministrator und Assistent Softwareentwicklung",
+    "period": "Apr 2015 – Nov 2016",
+    "headline": "Web Administrator & Software Development Assistant",
     "subline": "Kernwert GmbH",
-    "location": "Berlin",
-    "description": "Frontend-Entwicklung: Entwicklung eines responsive Moodboards.",
-    "tags": ["TypeScript", "JavaScript", "PHP", "RWD", "HTML", "CSS", "Git"]
+    "location": "Berlin, Germany",
+    "description": "Frontend development: Built a responsive moodboard tool for collaborative design workflows.",
+    "tags": ["TypeScript", "JavaScript", "PHP", "Responsive Web Design", "HTML", "CSS", "Git"]
   },
   {
-    "period": "Feb. 2015 – März 2015",
+    "period": "Feb 2015 – Mar 2015",
     "headline": "Working Student",
     "subline": "Berner & Mattner Systemtechnik GmbH",
-    "location": "Berlin",
-    "description": "Weiterentwicklung der Android-App die im Rahmen eines Bachelor-Thesis-Projekts entstanden ist.",
+    "location": "Berlin, Germany",
+    "description": "Enhanced an Android app originally developed for a bachelor’s thesis project, focusing on vehicle diagnostics.",
     "tags": ["Android", "Java", "SVN"]
   },
   {
-    "period": "Dez. 2014 – Feb. 2015",
+    "period": "Dec 2014 – Feb 2015",
     "headline": "Bachelor Thesis",
     "subline": "Berner & Mattner Systemtechnik GmbH",
-    "location": "Berlin",
-    "description": "Entwurf und Implementierung einer Android-App für die Diagnose und Steuerung eines Modellfahrzeugs auf der Basis eines vorhandenen Diagnosetools.",
+    "location": "Berlin, Germany",
+    "description": "Designed and implemented an Android app for diagnosing and controlling a model vehicle, based on an existing diagnostic tool.",
     "tags": ["Android", "Java", "SVN"]
   },
   {
-    "period": "Sept. 2014 – Nov. 2014",
+    "period": "Sep 2014 – Nov 2014",
     "headline": "Student Intern",
     "subline": "Berner & Mattner Systemtechnik GmbH",
-    "location": "Berlin",
-    "description": "Weiterentwicklung einer Java basierten Desktop-Anwendung.",
-    "tags": ["Android", "Java", "SVN"]
+    "location": "Berlin, Germany",
+    "description": "Contributed to the development of a Java-based desktop application for automotive diagnostics.",
+    "tags": ["Java", "Desktop Development", "SVN"]
   },
   {
     "period": "2012 – 2014",
     "headline": "Working Student",
     "subline": "Gehricke, Wieseke GbR",
-    "location": "Berlin",
-    "description": "Frontend-Entwicklung: Entwicklung eines responsive Drag-and-Drop Tools für die Qualitative Marktforschung unterschiedlicher Projekte.",
-    "tags": ["TypeScript", "JavaScript", "RWD", "HTML", "CSS"]
+    "location": "Berlin, Germany",
+    "description": "Frontend development: Built a responsive drag-and-drop tool for qualitative market research projects.",
+    "tags": ["TypeScript", "JavaScript", "Responsive Web Design", "HTML", "CSS"]
   }
 ]
