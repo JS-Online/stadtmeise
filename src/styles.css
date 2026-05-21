@@ -7,9 +7,9 @@ body {
 }
 
 /* ============================================
-   Fade-in On Scroll Animation
+   Scroll Effects Animation
    ============================================ */
-[appFadeInOnScroll] {
+[appEffectOnScroll] {
   opacity: 0;
 }
 
@@ -19,34 +19,89 @@ body {
 }
 
 .animate-from-up {
-  transform: translateY(20px);
+  transform: translateY(40px);
 }
 
 .animate-from-down {
-  transform: translateY(-20px);
+  transform: translateY(-40px);
 }
 
 .animate-from-left {
-  transform: translateX(-20px);
+  transform: translateX(-40px);
 }
 
 .animate-from-right {
-  transform: translateX(20px);
+  transform: translateX(40px);
 }
 
 /* Endzustand der Animation */
-[appFadeInOnScroll].animate-fade-in.animate-from-up {
+[appEffectOnScroll].animate-fade-in.animate-from-up {
   transform: translateY(0) !important;
 }
 
-[appFadeInOnScroll].animate-fade-in.animate-from-down {
+[appEffectOnScroll].animate-fade-in.animate-from-down {
   transform: translateY(0) !important;
 }
 
-[appFadeInOnScroll].animate-fade-in.animate-from-left {
+[appEffectOnScroll].animate-fade-in.animate-from-left {
   transform: translateX(0) !important;
 }
 
-[appFadeInOnScroll].animate-fade-in.animate-from-right {
+[appEffectOnScroll].animate-fade-in.animate-from-right {
   transform: translateX(0) !important;
+}
+
+/* ============================================
+   Bounce Animation
+   ============================================ */
+
+/* Bounce uses keyframe animation with direction */
+[appEffectOnScroll].animate-from-up.animate-bounce,
+[appEffectOnScroll].animate-from-down.animate-bounce,
+[appEffectOnScroll].animate-from-left.animate-bounce,
+[appEffectOnScroll].animate-from-right.animate-bounce {
+  animation: var(--bounce-anim) 0.6s ease-out both;
+}
+
+.animate-from-up.animate-bounce { --bounce-anim: bounce-up; }
+.animate-from-down.animate-bounce { --bounce-anim: bounce-down; }
+.animate-from-left.animate-bounce { --bounce-anim: bounce-left; }
+.animate-from-right.animate-bounce { --bounce-anim: bounce-right; }
+
+/* Zoom Animation */
+[appEffectOnScroll].animate-from-up.animate-zoom,
+[appEffectOnScroll].animate-from-down.animate-zoom,
+[appEffectOnScroll].animate-from-left.animate-zoom,
+[appEffectOnScroll].animate-from-right.animate-zoom {
+  animation: zoom-in 0.6s ease-out both;
+}
+
+@keyframes zoom-in {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Keyframes for each direction */
+@keyframes bounce-up {
+  0% { opacity: 0; transform: translateY(40px) scale(1); }
+  50% { opacity: 1; transform: translateY(-10px) scale(1.05); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes bounce-down {
+  0% { opacity: 0; transform: translateY(-40px) scale(1); }
+  50% { opacity: 1; transform: translateY(10px) scale(1.05); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes bounce-left {
+  0% { opacity: 0; transform: translateX(-40px) scale(1); }
+  50% { opacity: 1; transform: translateX(10px) scale(1.05); }
+  100% { opacity: 1; transform: translateX(0) scale(1); }
+}
+
+@keyframes bounce-right {
+  0% { opacity: 0; transform: translateX(40px) scale(1); }
+  50% { opacity: 1; transform: translateX(-10px) scale(1.05); }
+  100% { opacity: 1; transform: translateX(0) scale(1); }
 }

@@ -1,6 +1,6 @@
 <!-- Page Content-->
 <div class="container px-5 my-5">
-  <div class="text-center mb-5" appFadeInOnScroll [delay]="0" [direction]="'up'">
+  <div class="text-center mb-5" appEffectOnScroll [delay]="0" [direction]="'up'">
     <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
   </div>
   <!-- Experience & Education side by side on xxl -->
@@ -10,11 +10,11 @@
       <!-- Experience Section-->
       <section>
         <div class="d-flex align-items-center justify-content-between mb-4">
-          <h2 class="text-primary fw-bolder mb-0" appFadeInOnScroll [delay]="100" [direction]="'up'">Experience</h2>
+          <h2 class="text-primary fw-bolder mb-0" appEffectOnScroll [delay]="100" [direction]="'up'">Experience</h2>
         </div>
         @for (entry of experience; track entry.period; let i = $index) {
           <app-resume-card
-            appFadeInOnScroll
+            appEffectOnScroll
             [delay]="200 + (i * 100)"
             [direction]="'up'"
             [period]="entry.period"
@@ -32,10 +32,10 @@
 
       <!-- Education Section-->
       <section>
-        <h2 class="text-secondary fw-bolder mb-4" appFadeInOnScroll [delay]="100" [direction]="'up'">Education</h2>
+        <h2 class="text-secondary fw-bolder mb-4" appEffectOnScroll [delay]="100" [direction]="'up'">Education</h2>
         @for (entry of education; track entry.period; let i = $index) {
           <app-resume-card
-            appFadeInOnScroll
+            appEffectOnScroll
             [delay]="200 + (i * 100)"
             [direction]="'up'"
             [period]="entry.period"
@@ -52,7 +52,7 @@
       </section>
 
       <!-- Skills Section -->
-      <section class="mt-5" appFadeInOnScroll [delay]="300" [direction]="'up'">
+      <section class="mt-5" appEffectOnScroll [delay]="300" [direction]="'up'">
         <app-skills-card [groups]="skillGroups" />
       </section>
       <div class="pb-5"></div>

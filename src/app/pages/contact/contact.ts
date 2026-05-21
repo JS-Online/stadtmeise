@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { FadeInOnScrollDirective } from '../../directives/fade-in-on-scroll.directive';
+import { EffectOnScrollDirective } from '../../directives/effect-on-scroll.directive';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [FadeInOnScrollDirective],
+  imports: [EffectOnScrollDirective],
   templateUrl: './contact.html',
   styleUrl: './contact.css'
 })

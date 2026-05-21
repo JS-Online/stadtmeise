@@ -2,12 +2,12 @@ import { TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 import { routes } from '../../app.routes';
 import { Home } from './home';
-import { FadeInOnScrollDirective } from '../../directives/fade-in-on-scroll.directive';
+import { EffectOnScrollDirective } from '../../directives/effect-on-scroll.directive';
 
 describe('Home', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Home, FadeInOnScrollDirective],
+      imports: [Home, EffectOnScrollDirective],
       providers: [provideRouter(routes)]
     }).compileComponents();
   });

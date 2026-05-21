@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ResumeCard } from '../../components/resume-card/resume-card';
 import { SkillsCard, SkillGroup } from '../../components/skills-card/skills-card';
-import { FadeInOnScrollDirective } from '../../directives/fade-in-on-scroll.directive';
+import { EffectOnScrollDirective } from '../../directives/effect-on-scroll.directive';
 import { ResumeEntry } from '../../data/types';
 import experienceData from '../../data/experience.json';
 import educationData from '../../data/education.json';
@@ -10,7 +10,7 @@ import skillsData from '../../data/skills.json';
 @Component({
   selector: 'app-resume',
   standalone: true,
-  imports: [ResumeCard, SkillsCard, FadeInOnScrollDirective],
+  imports: [ResumeCard, SkillsCard, EffectOnScrollDirective],
   templateUrl: './resume.html',
   styleUrl: './resume.css'
 })

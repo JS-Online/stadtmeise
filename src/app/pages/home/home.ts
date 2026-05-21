@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { FadeInOnScrollDirective } from '../../directives/fade-in-on-scroll.directive';
+import { EffectOnScrollDirective } from '../../directives/effect-on-scroll.directive';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterLink, FadeInOnScrollDirective],
+  imports: [RouterLink, EffectOnScrollDirective],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
