@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { NgbCollapse } from '@ng-bootstrap/ng-bootstrap';
 
@@ -11,4 +11,10 @@ import { NgbCollapse } from '@ng-bootstrap/ng-bootstrap';
 })
 export class Navbar {
   isNavbarCollapsed = true;
+  isScrolled = false;
+
+  @HostListener('window:scroll')
+  onScroll() {
+    this.isScrolled = window.scrollY > 50;
+  }
 }
