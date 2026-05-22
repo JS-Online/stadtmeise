@@ -16,6 +16,42 @@ body {
 }
 
 /* ============================================
+   Navbar Section Title (appears in navbar when scrolling over headings)
+   ============================================ */
+.navbar-section-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 1.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease-out;
+  z-index: 1001;
+  /* Use same gradient as text-gradient class */
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-section-title.visible {
+  opacity: 1;
+  animation: fade-in 0.2s ease-out 0.3s both;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Smaller when navbar is scrolled */
+.navbar.navbar-scrolled .navbar-section-title,
+.navbar.navbar-scrolled .navbar-section-title.visible {
+  font-size: 1.1rem;
+}
+
+/* ============================================
    Scroll Effects Animation
    ============================================ */
 [appEffectOnScroll] {
